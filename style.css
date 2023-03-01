@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  color: #fff;
+  background: rgb(32, 32, 32);
+  animation-name: load;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+  align-content: center;
+}
+
+.navbar {
+  background: rgb(52, 52, 52);
+  padding: 1px;
+  border-radius: 5px;
+  flex: auto;
+}
+.navitem {
+  display: inline-block;
+  text-decoration: underline;
+  color: #fff;
+}
+.info {
+  font-variant: small-caps;
+}
+.postcard {
+  border-radius: 3px;
+  background: rgb(60, 60, 60);
+  padding: 1px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  transition-duration: 100ms;
+  padding-left: 0.5rem;
+}
+.postcard:hover {
+  transform: scale(1.05);
+  transition-duration: 100ms;
+  background: rgb(70, 70, 70);
+}
+.nostyle {
+  font-family: serif;
+  background: #fff;
+  color: black;
+}
+.standout {
+  font-variant: small-caps;
+  color: red;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+.nostandout {
+  color: lightgray;
+}
+.header {
+  animation-name: header;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+
+@keyframes load {
+  0% { filter: blur(5px); transform: scale(0.8); background: rgb(45, 45, 45); }
+  100% { filter: blur(0px); }
+}
+
+@keyframes header {
+  0% { transform: translate(0, 0, 0) }
+  50% { transform: translate(0, 2, 0) }
+  100% { transform: translate(0, 0, 0) }
+}
