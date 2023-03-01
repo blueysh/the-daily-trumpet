@@ -1,2 +1,4 @@
 # the daily trumpet
-This is just some dumb project I had to do for my CS class. While everyone else was learning CSS and HTML I decided to go and do this as my project instead. idk :)
+This is just some dumb, very basic HTML and CSS project I had to do for my CS class. While everyone else was learning CSS and HTML I decided to go and do this as my project instead, purely for the memes. If someone somehow finds this, PLEASE make a pull request and add your own funny post, and lets see how far it goes 😂
+
+Template for an article is [`ARTICLE_TEMPLATE.html`](https://github.com/blueysh/the-daily-trumpet/tree/main/ARTICLE_TEMPLATE.html), look at the [contribution guide](https://github.com/blueysh/the-daily-trumpet/tree/main/CONTRIBUTING.md) to see how to add it properly
